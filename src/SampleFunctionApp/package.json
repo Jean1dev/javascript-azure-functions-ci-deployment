@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint ./",
     "test": "jest",
+    "start": "func start",
     "test-ci": "node_modules/.bin/jest --ci --reporters=jest-junit --reporters=default",
     "coverage": "jest --coverage",
     "coverage-ci": "node_modules/.bin/jest --ci --reporters=jest-junit --coverage --coverageReporters=cobertura"
